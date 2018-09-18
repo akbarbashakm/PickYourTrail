@@ -1,0 +1,35 @@
+#button {
+    float: right;
+    margin: 10px;
+}
+
+#container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border: 1px solid green;
+}
+
+#canvas {
+    position: absolute;
+}
+
+table {
+    margin-top: 20px;
+}
+
+li {
+    border: 10px solid white;
+    color: aliceblue;
+    box-sizing: content-box;
+    margin-top: 2px;
+}
+
+#table_list ul li {
+    background: black;
+}
+
+#table_list ul li:nth-child(3n) {         
+    background: red;
+}

@@ -1,0 +1,25 @@
+table {
+    margin-top: 20px;
+}
+
+td {
+    border: 1px solid white;
+    color: aliceblue
+}
+
+#list table td {
+    background: black;
+}
+
+@media (max-width: 720px) { 
+    .e-cell{
+        width: 50% !important;
+        float: left;
+    }
+}
+@media (max-width: 360px) { 
+    .e-cell{
+        width: 100% !important;
+        float: left;
+    }
+}
